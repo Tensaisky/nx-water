@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>权限禁止</title>
+   <script type="text/javascript">
+　　　　　　　　var time = 25; //时间,秒
+　　　　　　　　function Redirect() {
+ 　　　　　　　　window.location = "login.jsp";
+　　　　　　　　}
+　　　　　　　　var i = 0;
+　　　　　　　　function dis() {
+ 　　　　　　　　document.all.s.innerHTML = (time - i);
+ 　　　　　　　　i++;
+　　　　　　　　}
+　　　　　　　　timer = setInterval('dis()', 1000); //显示时间
+　　　　　　　　timer = setTimeout('Redirect()', time * 1000); //跳转
+　　</script>
+</head>
+<body>
+   <div id="warning"style="color: #286090;font-size: 25px; position: absolute; top: 20%;left: 10%;">
+	 	你没有访问权限,<span id="s" style="color: red;font-size: 35px;" ></span>秒后将返回！
+	 </div>
+</body>
+</html>

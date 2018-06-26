@@ -1,0 +1,62 @@
+body { 
+  background-size:auto; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2) inset;
+ background: url(../images/li12.jpg) no-repeat;
+  background-size:100%; 
+}
+h1{
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+ /* background-color:#aadb66;*/
+    border-radius: 6px;
+    margin-top: 15%;
+    margin-left:45%;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.2) inset;
+    background: -ms-linear-gradient(top,#a8d6e6,#d3e9ff);        /* IE 10 */
+	background:-moz-linear-gradient(top,#a8d6e6,#d3e9ff);/*火狐*/ 	
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#a8d6e6), to(#d3e9ff));/*谷歌*/ 	
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a8d6e6), to(#d3e9ff));      /* Safari 4-5, Chrome 1-9*/	
+	background: -webkit-linear-gradient(top,#a8d6e6,#d3e9ff);   /*Safari5.1 Chrome 10+*/	
+	background: -o-linear-gradient(top,#a8d6e6,#d3e9ff);  /*Opera 11.10+*/  
+ 
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#login{
+	background-color: rgb(68, 151, 243);
+    border-color: rgba(0,0,0,.0001);
+}
+
