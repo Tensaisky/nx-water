@@ -53,7 +53,7 @@ public class userServlet extends baseServlet {
 				HttpSession session = request.getSession(true);
 				session.setAttribute("user", loginUser);
 				// 跳转到用户主页
-				response.sendRedirect(request.getContextPath() + "/jsp/front/index1.jsp");
+				response.sendRedirect(request.getContextPath() + "/jsp/front/index.jsp");
 				return;
 			} else {
 				// 登陆失败

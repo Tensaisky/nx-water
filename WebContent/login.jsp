@@ -14,14 +14,10 @@
 	<meta content="" name="author" />
 	
 	<!-- ================== BEGIN BASE CSS STYLE ================== -->
-	
-	<!-- <link href="assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet" /> --> 
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 	<link href="css/font-awesome.css" rel="stylesheet" />
 	<link href="css/animate.css" rel="stylesheet" />
 	 <link href="css/style.min.css" rel="stylesheet" /> 
-	<!--  <link href="assets/css/style-responsive.min.css" rel="stylesheet" /> 
-	 <link href="assets/css/theme/default.css" rel="stylesheet" id="theme" />  -->
 	<!-- ================== END BASE CSS STYLE ================== -->
 </head>
 <body>
@@ -72,16 +68,6 @@
             </div>
         </div>
         <!-- end login -->
-        
-       <!-- <ul class="login-bg-list">
-            <li class="active"><a href="#" data-click="change-bg"><img src="assets/img/login-bg/3.jpg" alt="" /></a></li>
-            <li><a href="#" data-click="change-bg"><img src="assets/img/login-bg/2.jpg" alt="" /></a></li>
-            <li><a href="#" data-click="change-bg"><img src="assets/img/login-bg/3.jpg" alt="" /></a></li>
-            <li><a href="#" data-click="change-bg"><img src="assets/img/login-bg/4.jpg" alt="" /></a></li>
-            <li><a href="#" data-click="change-bg"><img src="assets/img/login-bg/5.jpg" alt="" /></a></li>
-            <li><a href="#" data-click="change-bg"><img src="assets/img/login-bg/6.jpg" alt="" /></a></li>
-        </ul>-->
- 
 	</div>
 	<!-- end page container -->
 	
@@ -100,7 +86,6 @@
 	<!-- ================== END BASE JS ================== -->
 	
 	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
-	<!-- <script src="assets/js/login-v2.demo.min.js"></script> -->
 	<script src="js/apps.min.js"></script>
 	<!-- ================== END PAGE LEVEL JS ================== -->
 
